@@ -1131,6 +1131,202 @@ textarea.input { min-height: 90px; resize: vertical; }
         </section>
       </div>
     </sc-if>
+    <sc-if value="{{ isShopify }}" hint-placeholder-val="{{ false }}">
+      <div data-screen-label="Shopify &amp; Web Development" style="display:grid;gap:clamp(10px,1.6vw,22px)">
+
+        <section style="min-width:0;background:#FFCDF2;color:#760D46;padding:clamp(24px,4vw,56px)">
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:clamp(24px,4vw,64px);align-items:center">
+            <div style="display:grid;gap:clamp(14px,1.8vw,20px);min-width:0">
+              <h6 style="margin:0">Portfolio —</h6>
+              <h2 style="margin:0;font-size:clamp(30px,6vw,76px);line-height:.92;letter-spacing:-.035em;text-transform:uppercase">Shopify &amp;<br>Web<br>Development</h2>
+              <p style="margin:0;font-style:italic;font-size:clamp(14px,1.4vw,18px);max-width:46ch">I build Shopify stores, websites, landing pages, forms, and the systems behind them.</p>
+              <p style="margin:0;font-size:14px;max-width:54ch;text-wrap:pretty">I design and build Shopify pages and websites, create landing pages and web forms, handle product uploads and listings, set up pricing and stock management, manage lead times, and put the right operational systems in place so your store runs smoothly from front to back end.</p>
+              <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:6px">
+                <button type="button" style="appearance:none;cursor:pointer;background:#760D46;color:#FFCDF2;border:2px solid #760D46;font-family:var(--font-heading);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:14px 20px;min-height:48px" style-hover="background:#5A0A35;border-color:#5A0A35">View Store Build</button>
+                <button type="button" style="appearance:none;cursor:pointer;background:transparent;color:#760D46;border:2px solid #760D46;font-family:var(--font-heading);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:12px 18px;min-height:48px" style-hover="background:#760D46;color:#FFCDF2">View Landing Pages</button>
+                <button type="button" style="appearance:none;cursor:pointer;background:transparent;color:#760D46;border:2px solid #760D46;font-family:var(--font-heading);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:12px 18px;min-height:48px" style-hover="background:#760D46;color:#FFCDF2">See Forms</button>
+              </div>
+            </div>
+            <div style="position:relative;aspect-ratio:4/3;border:2px solid #760D46;min-width:0;background:#FFF0FA">
+              <image-slot id="shopify-hero" shape="rect" placeholder="Store preview"></image-slot>
+            </div>
+          </div>
+        </section>
+
+        <section style="min-width:0;background:#FFF0FA;color:#760D46;padding:clamp(24px,4vw,56px)">
+          <div style="margin-bottom:clamp(18px,3vw,30px);display:flex;align-items:baseline;gap:16px;flex-wrap:wrap">
+            <h3 style="margin:0;font-size:clamp(22px,3.4vw,38px);text-transform:uppercase;letter-spacing:-.02em">What I Do</h3>
+            <p style="margin:0;font-size:13.5px;max-width:54ch;color:#5A0A35">End-to-end Shopify and web development support, from design to day-to-day operations.</p>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:14px">
+            <div style="border:2px solid #760D46;padding:18px;display:grid;gap:10px">
+              <div style="width:34px;height:34px;border:2px solid #760D46;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800">SD</div>
+              <h4 style="margin:0;font-size:15px;text-transform:uppercase;letter-spacing:.01em">Shopify Store Design</h4>
+              <p style="margin:0;font-size:12.5px;color:#5A0A35">Custom, on-brand Shopify stores that look great and convert.</p>
+            </div>
+            <div style="border:2px solid #760D46;padding:18px;display:grid;gap:10px">
+              <div style="width:34px;height:34px;border:2px solid #760D46;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800">&lt;/&gt;</div>
+              <h4 style="margin:0;font-size:15px;text-transform:uppercase;letter-spacing:.01em">Website Development</h4>
+              <p style="margin:0;font-size:12.5px;color:#5A0A35">Modern, responsive websites built for performance and usability.</p>
+            </div>
+            <div style="border:2px solid #760D46;padding:18px;display:grid;gap:10px">
+              <div style="width:34px;height:34px;border:2px solid #760D46;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800">LP</div>
+              <h4 style="margin:0;font-size:15px;text-transform:uppercase;letter-spacing:.01em">Landing Pages</h4>
+              <p style="margin:0;font-size:12.5px;color:#5A0A35">Focused, high-converting pages for products, campaigns or enquiries.</p>
+            </div>
+            <div style="border:2px solid #760D46;padding:18px;display:grid;gap:10px">
+              <div style="width:34px;height:34px;border:2px solid #760D46;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800">FM</div>
+              <h4 style="margin:0;font-size:15px;text-transform:uppercase;letter-spacing:.01em">Clickable Forms &amp; Webforms</h4>
+              <p style="margin:0;font-size:12.5px;color:#5A0A35">Customisable forms for leads, quotes, bookings and more.</p>
+            </div>
+            <div style="border:2px solid #760D46;padding:18px;display:grid;gap:10px">
+              <div style="width:34px;height:34px;border:2px solid #760D46;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800">PU</div>
+              <h4 style="margin:0;font-size:15px;text-transform:uppercase;letter-spacing:.01em">Product Uploads &amp; Listings</h4>
+              <p style="margin:0;font-size:12.5px;color:#5A0A35">Bulk or individual product setup with clean, consistent listings.</p>
+            </div>
+            <div style="border:2px solid #760D46;padding:18px;display:grid;gap:10px">
+              <div style="width:34px;height:34px;border:2px solid #760D46;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800">$</div>
+              <h4 style="margin:0;font-size:15px;text-transform:uppercase;letter-spacing:.01em">Pricing &amp; Catalog Management</h4>
+              <p style="margin:0;font-size:12.5px;color:#5A0A35">Pricing setup, catalog structure and ongoing updates.</p>
+            </div>
+            <div style="border:2px solid #760D46;padding:18px;display:grid;gap:10px">
+              <div style="width:34px;height:34px;border:2px solid #760D46;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800">ST</div>
+              <h4 style="margin:0;font-size:15px;text-transform:uppercase;letter-spacing:.01em">Stock Management</h4>
+              <p style="margin:0;font-size:12.5px;color:#5A0A35">Inventory setup and tracking to keep your store accurate and reliable.</p>
+            </div>
+            <div style="border:2px solid #760D46;padding:18px;display:grid;gap:10px">
+              <div style="width:34px;height:34px;border:2px solid #760D46;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800">OP</div>
+              <h4 style="margin:0;font-size:15px;text-transform:uppercase;letter-spacing:.01em">Backend Setup &amp; Operations</h4>
+              <p style="margin:0;font-size:12.5px;color:#5A0A35">The operational foundation: settings, apps, workflows and store configuration.</p>
+            </div>
+          </div>
+        </section>
+
+        <section style="min-width:0;background:#FFCDF2;color:#760D46;padding:clamp(24px,4vw,56px)">
+          <div style="margin-bottom:clamp(18px,3vw,30px);display:flex;align-items:baseline;gap:16px;flex-wrap:wrap">
+            <h3 style="margin:0;font-size:clamp(22px,3.4vw,38px);text-transform:uppercase;letter-spacing:-.02em">How I Build It</h3>
+            <p style="margin:0;font-size:13.5px;max-width:54ch;color:#5A0A35">A structured, end-to-end process to design, set up and launch a store or website that works front and back end.</p>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:12px">
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <span style="font-size:11px;font-weight:800;color:#FFCDF2;background:#760D46;border-radius:50%;width:24px;height:24px;display:flex;align-items:center;justify-content:center">01</span>
+              <h4 style="margin:0;font-size:14px;text-transform:uppercase">Store Structure &amp; Navigation</h4>
+            </div>
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <span style="font-size:11px;font-weight:800;color:#FFCDF2;background:#760D46;border-radius:50%;width:24px;height:24px;display:flex;align-items:center;justify-content:center">02</span>
+              <h4 style="margin:0;font-size:14px;text-transform:uppercase">Category Setup</h4>
+            </div>
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <span style="font-size:11px;font-weight:800;color:#FFCDF2;background:#760D46;border-radius:50%;width:24px;height:24px;display:flex;align-items:center;justify-content:center">03</span>
+              <h4 style="margin:0;font-size:14px;text-transform:uppercase">Product Data Uploads</h4>
+            </div>
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <span style="font-size:11px;font-weight:800;color:#FFCDF2;background:#760D46;border-radius:50%;width:24px;height:24px;display:flex;align-items:center;justify-content:center">04</span>
+              <h4 style="margin:0;font-size:14px;text-transform:uppercase">Descriptions, Images &amp; SEO</h4>
+            </div>
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <span style="font-size:11px;font-weight:800;color:#FFCDF2;background:#760D46;border-radius:50%;width:24px;height:24px;display:flex;align-items:center;justify-content:center">05</span>
+              <h4 style="margin:0;font-size:14px;text-transform:uppercase">Pricing &amp; Lead Times</h4>
+            </div>
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <span style="font-size:11px;font-weight:800;color:#FFCDF2;background:#760D46;border-radius:50%;width:24px;height:24px;display:flex;align-items:center;justify-content:center">06</span>
+              <h4 style="margin:0;font-size:14px;text-transform:uppercase">Stock &amp; Operations</h4>
+            </div>
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <span style="font-size:11px;font-weight:800;color:#FFCDF2;background:#760D46;border-radius:50%;width:24px;height:24px;display:flex;align-items:center;justify-content:center">07</span>
+              <h4 style="margin:0;font-size:14px;text-transform:uppercase">Testing &amp; Launch</h4>
+            </div>
+          </div>
+        </section>
+
+        <section style="min-width:0;background:#FFF0FA;color:#760D46;padding:clamp(24px,4vw,56px);border-top:2px solid #760D46;border-bottom:2px solid #760D46">
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:clamp(20px,3vw,40px);align-items:center">
+            <div style="display:grid;gap:12px">
+              <h6 style="margin:0">Featured Project</h6>
+              <h2 style="margin:0;font-size:clamp(26px,4.4vw,54px);line-height:.95;letter-spacing:-.03em;text-transform:uppercase">JBE Concepts</h2>
+              <p style="margin:0;font-size:14px;max-width:48ch">A hospitality-supply Shopify store for hotels, restaurants and commercial spaces.</p>
+              <p style="margin:0;font-style:italic;font-size:13.5px;max-width:48ch;color:#5A0A35">The project included full store design, product setup, pricing workflows, stock organization, and an operational structure built for day-to-day management.</p>
+              <button type="button" style="justify-self:start;appearance:none;cursor:pointer;background:#760D46;color:#FFCDF2;border:0;font-family:var(--font-heading);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:14px 20px;min-height:48px;margin-top:6px" style-hover="background:#5A0A35">View Project →</button>
+            </div>
+            <div style="position:relative;aspect-ratio:16/10;border:2px solid #760D46;background:#FFCDF2">
+              <image-slot id="shopify-jbe-cover" shape="rect" placeholder="JBE Concepts store"></image-slot>
+            </div>
+          </div>
+        </section>
+
+        <section style="min-width:0;background:#FFCDF2;color:#760D46;padding:clamp(24px,4vw,56px)">
+          <div style="margin-bottom:clamp(18px,3vw,30px)">
+            <h3 style="margin:0 0 8px;font-size:clamp(22px,3.4vw,38px);text-transform:uppercase;letter-spacing:-.02em">Products, Listings &amp; Viability</h3>
+            <p style="margin:0;font-size:13.5px;max-width:60ch;color:#5A0A35">The behind-the-scenes work that keeps your store accurate, commercially viable and easy to manage.</p>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:14px">
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <h4 style="margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.08em">Product Listings</h4>
+              <p style="margin:0;font-size:12.5px">Title, SKU &amp; categories</p>
+              <p style="margin:0;font-size:12.5px">Variants (size, colour, etc.)</p>
+              <p style="margin:0;font-size:12.5px">Clean, consistent listings</p>
+            </div>
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <h4 style="margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.08em">Pricing Logic</h4>
+              <p style="margin:0;font-size:12.5px">Standard, trade or tiered pricing</p>
+              <p style="margin:0;font-size:12.5px">Bulk and quantity rules</p>
+              <p style="margin:0;font-size:12.5px">Flexible catalog pricing</p>
+            </div>
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <h4 style="margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.08em">Stock Management</h4>
+              <p style="margin:0;font-size:12.5px">In Stock / Low Stock / Out of Stock</p>
+              <p style="margin:0;font-size:12.5px">Inventory tracking across products</p>
+            </div>
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <h4 style="margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.08em">Lead Times</h4>
+              <p style="margin:0;font-size:12.5px">Lead time setup by product or category</p>
+              <p style="margin:0;font-size:12.5px">Clear customer messaging</p>
+              <p style="margin:0;font-size:12.5px">Aligned with stock and supplier timelines</p>
+            </div>
+            <div style="border:2px solid #760D46;background:#FFF0FA;padding:16px;display:grid;gap:8px">
+              <h4 style="margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.08em">Financial / Product Admin</h4>
+              <p style="margin:0;font-size:12.5px">Product &amp; catalog management</p>
+              <p style="margin:0;font-size:12.5px">Pricing and margin updates</p>
+              <p style="margin:0;font-size:12.5px">Inventory, reporting and store operations</p>
+            </div>
+          </div>
+        </section>
+
+        <section style="min-width:0;background:#FFF0FA;color:#760D46;padding:clamp(24px,4vw,56px)">
+          <div style="margin-bottom:clamp(18px,3vw,30px)">
+            <h3 style="margin:0 0 8px;font-size:clamp(22px,3.4vw,38px);text-transform:uppercase;letter-spacing:-.02em">Landing Pages &amp; Forms</h3>
+            <p style="margin:0;font-size:13.5px;max-width:60ch;color:#5A0A35">Custom landing pages and forms to capture leads, enquiries and quote requests.</p>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:16px">
+            <div style="display:grid;gap:10px">
+              <div style="position:relative;aspect-ratio:4/3;border:2px solid #760D46;background:#FFCDF2">
+                <image-slot id="shopify-lead-form" shape="rect" placeholder="Lead form"></image-slot>
+              </div>
+              <span style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:700">Lead Form</span>
+            </div>
+            <div style="display:grid;gap:10px">
+              <div style="position:relative;aspect-ratio:4/3;border:2px solid #760D46;background:#FFCDF2">
+                <image-slot id="shopify-enquiry-form" shape="rect" placeholder="Project enquiry"></image-slot>
+              </div>
+              <span style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:700">Project Enquiry</span>
+            </div>
+            <div style="display:grid;gap:10px">
+              <div style="position:relative;aspect-ratio:4/3;border:2px solid #760D46;background:#FFCDF2">
+                <image-slot id="shopify-quote-form" shape="rect" placeholder="Quote request"></image-slot>
+              </div>
+              <span style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:700">Quote Request</span>
+            </div>
+          </div>
+        </section>
+
+        <section style="min-width:0;background:#5A0A35;color:#FFCDF2;padding:clamp(22px,3.4vw,40px) clamp(20px,4vw,56px);display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between">
+          <h3 style="margin:0;font-size:clamp(18px,2.6vw,30px);text-transform:uppercase;letter-spacing:-.015em;max-width:40ch">Need a Shopify store that looks good and works behind the scenes?</h3>
+          <button type="button" style="appearance:none;cursor:pointer;background:#FFCDF2;color:#760D46;border:0;font-family:var(--font-heading);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:16px 22px;min-height:52px;white-space:nowrap" style-hover="background:#FFE4F8">Let's Build It →</button>
+        </section>
+
+      </div>
+    </sc-if>
+
 
     <sc-if value="{{ isContact }}" hint-placeholder-val="{{ false }}">
       <section data-screen-label="Contact" style="background:#5A0A35;color:#FFCDF2;padding:clamp(28px,5vw,90px) clamp(20px,4vw,56px);min-height:70svh">
@@ -1567,12 +1763,12 @@ class Component extends DCLogic {
       introOpen: this.state.intro,
       introWord: this.WORDS[this.state.word],
       enter: () => { this.setState({ intro: false }); clearInterval(this.wordTimer); },
-      nav: [navItem('Home', 'home'), navItem('About me', 'about'), navItem('Projects', 'work'), navItem('What I can do', 'cando'), navItem('How it gets made', 'process'), navItem('Through my lens', 'lens'), navItem('Career brew', 'career'), navItem('Contact', 'contact')],
+      nav: [navItem('Home', 'home'), navItem('About me', 'about'), navItem('Projects', 'work'), navItem('Shopify & Web Development', 'shopify'), navItem('What I can do', 'cando'), navItem('How it gets made', 'process'), navItem('Through my lens', 'lens'), navItem('Career brew', 'career'), navItem('Contact', 'contact')],
       viewKey: v + ':' + (this.state.project || ''),
       flashOn: !!this.state.flash,
       isCando: v === 'cando', isProcess: v === 'process', isLens: v === 'lens', isCareer: v === 'career',
       isHome: v === 'home', isWork: v === 'work', isProject: v === 'project',
-      isAbout: v === 'about', isContact: v === 'contact',
+      isAbout: v === 'about', isContact: v === 'contact', isShopify: v === 'shopify',
       goHome: () => this.go('home'), goWork: () => this.go('work'),
       goAbout: () => this.go('about'),
       printAbout: () => { this.go('about'); setTimeout(() => window.print(), 450); }, goContact: () => this.go('contact'),
